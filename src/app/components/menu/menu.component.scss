@@ -1,0 +1,33 @@
+.menu {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  li {
+    display: block;
+    button{
+      text-decoration: none;
+      background: darkseagreen;
+      border: 1px solid #1c7966;
+      border-radius: 8px;
+      margin: 5px;
+      padding: 5px 100px;
+      display: block;
+    }
+    button:hover{
+      opacity: 0.8;
+      background: darkseagreen;
+
+
+    }
+    button:disabled{
+      border: 1px solid #78918c;
+      opacity: 0.8;
+    }
+    button:active{
+      border: 1px solid rgb(253, 127, 10);
+    }
+  }
+}
