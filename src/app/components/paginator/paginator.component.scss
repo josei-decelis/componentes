@@ -1,3 +1,6 @@
+*{
+  font-size: 40px;
+}
 .bloque{
   display: flex;
   flex-direction: column;
@@ -6,10 +9,14 @@
 }
 .list-elements{
   padding: 0;
-  min-height: 100px;
+  min-height: 240px;
 }
 .list-buttons{
   padding: 0;
   display: flex;
   list-style: none;
+}
+.active{
+  background: #e3eeee;
+  color:blue;
 }
