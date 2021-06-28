@@ -1,0 +1,15 @@
+.bloque{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-elements{
+  padding: 0;
+  min-height: 100px;
+}
+.list-buttons{
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
