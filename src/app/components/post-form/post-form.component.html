@@ -1,0 +1,22 @@
+<button routerLink="/home">Volver</button>
+<h1>Formulario</h1>
+el formulario es valido ? {{form.valid}}
+<form action="" [formGroup]="form" (ngSubmit)="submit()">
+  <label for="title">title</label>
+  <input id="title" type="text" formControlName="title">
+
+  <label for="body">body</label>
+  <textarea  id="body" cols="30" rows="5" formControlName="body"></textarea>
+
+  <label for="user">user</label>
+  <select name="select" id="user" formControlName="userId">
+    <option value="valor1">valor1</option>
+    <option value="valor2">valor2</option>
+  </select>
+
+  <button> Guardar</button>
+
+</form>
+
+
+<button routerLink="/home">Volver</button>
